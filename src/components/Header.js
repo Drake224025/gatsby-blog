@@ -9,14 +9,14 @@ export default props => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link>
-            <Link to="/">Home</Link>
+          <Nav.Link to="/" as={Link}>
+            Home
           </Nav.Link>
-          <Nav.Link>
-            <Link to="/">About Us</Link>
+          <Nav.Link to="/about" as={Link}>
+            About Us
           </Nav.Link>
-          <Nav.Link>
-            <Link to="/">Contact Us</Link>
+          <Nav.Link to="/contact" as={Link}>
+            Contact Us
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

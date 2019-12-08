@@ -7,13 +7,7 @@ import Post from "../components/Post"
 export default () => (
   <div>
     <Header>Gatsby-blog</Header>
-    <div
-      className="container"
-      style={{
-        position: "relative",
-        "min-height": "100vh",
-      }}
-    >
+    <div className="container">
       <Row>
         <Post />
         <Post />
