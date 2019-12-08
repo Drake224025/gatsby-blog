@@ -4,7 +4,7 @@ import Img from "../../static/kobu.jpg"
 
 export default () => (
   <div className="p-3">
-    <Card style={{ width: "18rem" }}>
+    <Card className="card w-75">
       <Card.Img variant="top" src={Img} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
